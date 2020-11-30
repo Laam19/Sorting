@@ -1,0 +1,11 @@
+C:\Users\BS383\Documents\GitHub\Sort\Sort\obj\Debug\netcoreapp3.1\Sort.csprojAssemblyReference.cache
+C:\Users\BS383\Documents\GitHub\Sort\Sort\obj\Debug\netcoreapp3.1\Sort.AssemblyInfoInputs.cache
+C:\Users\BS383\Documents\GitHub\Sort\Sort\obj\Debug\netcoreapp3.1\Sort.AssemblyInfo.cs
+C:\Users\BS383\Documents\GitHub\Sort\Sort\bin\Debug\netcoreapp3.1\Sort.exe
+C:\Users\BS383\Documents\GitHub\Sort\Sort\bin\Debug\netcoreapp3.1\Sort.deps.json
+C:\Users\BS383\Documents\GitHub\Sort\Sort\bin\Debug\netcoreapp3.1\Sort.runtimeconfig.json
+C:\Users\BS383\Documents\GitHub\Sort\Sort\bin\Debug\netcoreapp3.1\Sort.runtimeconfig.dev.json
+C:\Users\BS383\Documents\GitHub\Sort\Sort\bin\Debug\netcoreapp3.1\Sort.dll
+C:\Users\BS383\Documents\GitHub\Sort\Sort\bin\Debug\netcoreapp3.1\Sort.pdb
+C:\Users\BS383\Documents\GitHub\Sort\Sort\obj\Debug\netcoreapp3.1\Sort.dll
+C:\Users\BS383\Documents\GitHub\Sort\Sort\obj\Debug\netcoreapp3.1\Sort.pdb
