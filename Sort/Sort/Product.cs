@@ -5,10 +5,20 @@ using System.Text;
 
 namespace Sort
 {
-    public class Product 
+    public class Product : IComparable<Product>
     {
 
-       public  int[] ProductPrice = new[] { 5, 2, 9, 3, 8, 1 };
-        
+        public double price;
+        public string name;
+        public string id;
+
+        public int CompareTo(Product other)
+        {
+            if (price > other.price) return 1;
+            if (price < other.price) return -1;
+            return 0;
+        }
+
+
     }
 }

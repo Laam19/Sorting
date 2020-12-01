@@ -10,7 +10,7 @@ namespace Sort
 
         public SortFactory()
         {
-            SortLibrary = new Dictionary<SortType, ISort<T>>
+            SortLibrary = new Dictionary<SortType, ISort<T> >
             {
                 {SortType.Quick, new QuickSort<T>()},
                 {SortType.Bubble, new BubbleSort<T>()},

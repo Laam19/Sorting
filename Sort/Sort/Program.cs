@@ -7,23 +7,27 @@ namespace Sort
     {
         static void Main(string[] args)
         {
-            
-            int[] UnsortedArray = new[] { 1, 5, 6, 2, 4, 3 };
-            int [] SortedArray1=SortDotNet<int>.Sort(UnsortedArray, SortType.Bubble, SortOrder.Decending);
-            Console.WriteLine("Normal Sorting::");
-            for (int i = 0; i < SortedArray1.Length; i++)
+
+            Product pen = new Product() {price=15,id="1",name="pen" };
+            Product pencil = new Product() { price = 19, id = "2", name = "pencil" };
+            Product paper = new Product() { price = 25, id = "3", name = "paper" };
+            Product mobile = new Product() { price = 5, id = "4", name = "mobile" };
+            Product laptop = new Product() { price = 115, id = "5", name = "laptop" };
+
+            List<Product> Products = new List<Product>()
             {
-                Console.WriteLine(SortedArray1[i]);
+                pen,pencil,paper,mobile,laptop
+            };
+            Product[] SortedProduct = Products.ToArray();
+             SortDotNet<Product>.Sort(SortedProduct, SortType.Quick, SortOrder.Ascending);
+            foreach(Product product in SortedProduct)
+            {
+                Console.WriteLine(product.name);
+                Console.WriteLine(product.price);
+
             }
 
-            Product product = new Product();
-            
-            int[] SortedArray2 = SortDotNet<int>.Sort(product.ProductPrice, SortType.Bubble, SortOrder.Decending);
-            Console.WriteLine("Object Based Sorting Sorting::");
-            for (int i = 0; i < SortedArray2.Length; i++)
-            {
-                Console.WriteLine(SortedArray2[i]);
-            }
+            Console.ReadLine();
         }
     }
 }
